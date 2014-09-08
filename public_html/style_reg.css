@@ -1,0 +1,8 @@
+body { background-color: #000000; margin: 0px; padding: 0px; text-align: center; }
+.reg_bg { background-image: url(images/reg_bg.jpg); background-repeat: no-repeat;}
+.form1	{margin: 0px; padding: 0px;}
+.text1	{font-family: Lucida Sans Unicode; font-size: 11px; color: #0079c2;}
+.text29	{font-family: Trebuchet MS; font-size: 18px; color: #1e1d1e; font-weight: bold;}
+.text30	{font-family: Trebuchet MS; font-size: 14px; color: #1e1d1e; line-height: 18px;}
+.text26	{font-family: Trebuchet MS; font-size: 12px; color: #1e1d1e;}
+.formfield4	{ width: 220px; font-family: Trebuchet MS; font-size: 14px; color: #000000; }

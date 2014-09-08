@@ -1,0 +1,1 @@
+document.write('<embed src="flash/PhillipsUtahVideoPlayer.swf" width="500" height="310" wmode="transparent">');

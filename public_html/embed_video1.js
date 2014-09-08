@@ -1,0 +1,1 @@
+document.write('<embed src="flash/PhillipsAerospace.swf" width="320" height="240" wmode="transparent">');

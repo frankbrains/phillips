@@ -1,0 +1,1311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img {
+    border: none;
+}
+
+
+a{
+    color: #0079c2;
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+header,
+nav,
+menu,
+section,
+article,
+aside,
+footer {
+  display: block;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background: url("../images/bg.jpg") no-repeat fixed center center #000000;
+}
+
+#wrap {
+    overflow: hidden;
+}
+
+
+/*--------texts-----------*/
+
+
+h1 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 0;
+    padding: 0 0 13px 5px;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.text1 {
+    color: #0079c2;
+    font-family: Lucida Sans Unicode;
+    font-size: 11px;
+}
+.text2 {
+    color: #2397d0;
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+}
+.text3 {
+    color: #80777e;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+}
+.text4 {
+    color: #80777e;
+    font-family: Lucida Sans Unicode;
+    font-size: 11px;
+}
+.text5 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 15px;
+    padding-bottom: 6px;
+}
+.text6 {
+    color: #636466;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    line-height: 15px;
+}
+.text7 {
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 22px;
+}
+.text8 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    line-height: 26px;
+}
+.text9 {
+    color: #58595b;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 50px;
+    text-align: left;
+}
+.text10 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 20px;
+}
+.text11 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    padding-left: 5px;
+}
+.text14 {
+    color: #585858;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.text15 {
+    color: #1f568a;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.text17 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text18 {
+    color: #606365;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 16px;
+}
+.text19 {
+    color: #1f568a;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+}
+.text25 {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+
+.formfield1 {
+    background-image: url("../images/search_bg.jpg");
+    background-repeat: repeat-x;
+    border: 0 none;
+    color: #0079c2;
+    font-family: Lucida Sans Unicode;
+    font-size: 11px;
+    height: 17px;
+    width: 159px;
+}
+.formfield2 {
+    border: 0 none;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+
+
+.shadow {
+    background: url(../images/shadow_footer.png) no-repeat 50% 0;
+    width: 1120px;
+    height: 71px;
+    margin: 0 auto;
+}
+
+.container {
+    background: #fff;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    padding: 16px 18px 0;
+}
+
+.container.aviation-template {
+    padding: 15px 17px 0 18px;
+    width: 981px;
+}
+
+.container.acr-template {
+    padding: 15px 18px 0;
+}
+
+.container:before {
+    content: "";
+    background: url(../images/shadow_left_slice.png) repeat-y;
+    position: absolute;
+    left: -70px;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+}
+.container:after {
+    content: "";
+    background: url(../images/shadow_right_slice.png) repeat-y;
+    position: absolute;
+    right: -70px;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+.col-md-3 {
+    width: 25%;
+    float: left;
+}
+
+.slide-out-div {
+    line-height: 1;
+    position: absolute;
+    height: 908px;
+    top: 144px;
+    left: -280px;
+    background: url(../images/contact_side_new4.png) no-repeat;
+    z-index: 5;
+}
+
+.handle {
+    background: url(../images/contact_button_new.png) no-repeat scroll 0% 0% transparent;
+    width: 49px;
+    height: 890px;
+    display: block;
+    text-indent: -99999px;
+    outline: medium none;
+    position: absolute;
+    top: 144px;
+    right: -49px;
+}
+
+.slide-out-div .contact-list {
+    width: 280px;
+    padding-left: 19px;
+    padding-top: 43px;
+}
+
+.slide-out-div .contact-list strong {
+    display: block;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.slide-out-div .contact-list strong.big {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 2px;
+}
+
+.slide-out-div .contact-list ul li {
+    color: #58595b;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 18px;
+    height: 86px;
+}
+
+.slide-out-div .contact-list ul li.short {
+    height: 68px;
+}
+.slide-out-div .contact-list ul li:first-child {
+    height: 106px;
+}
+
+.slide-out-div .contact-list ul li a {
+    color: #ed1c24;
+    text-decoration: underline;
+}
+
+/*-------------popup-------------*/
+
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+
+#cboxOverlay {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9998;
+    background: #000000;
+    opacity: 0.9;
+    display: none;
+}
+
+#colorbox {
+    cursor: auto;
+    display: block;
+    height: 660px;
+    left: 392px;
+    opacity: 1;
+    padding-bottom: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 563px;
+    width: 767px;
+    display: none;
+}
+
+
+#cboxLoadedContent iframe {
+    border: 0 none;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+/*-----------------header-----------*/
+
+header {
+    height: 95px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo-box {
+    float: left;
+    margin-left: 3px;
+}
+
+header .logo-box img {
+    display: block;
+}
+
+header h1 {
+    margin: 3px 0 0 -1px;
+}
+
+.container.single-page header h1 {
+    margin-top: 2px;
+}
+
+header .search {
+    float: right;
+    clear: right;
+    margin-top: 19px;
+    margin-right: -1px;
+}
+
+header .search img {
+    float: left;
+    display: block;
+}
+
+header .search input {
+    float: left;
+}
+
+header .search input {
+    margin-right: 1px;
+}
+
+header .login-box {
+    float: right;
+    clear: right;
+    margin-top: 46px;
+}
+
+header .login-box a {
+    color: #1e1d1e;
+}
+
+
+
+header .menu-btn {
+    background: url(../images/menu-btn.png) no-repeat;
+    width: 164px;
+    height: 57px;
+    display: none;
+    float: right;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+header .mobile-nav {
+    position: relative;
+    background: #333;
+    margin-top: 150px;
+    margin-left: -30px;
+    margin-right: -30px;
+    display: none;
+    clear: both;
+    top: -25px;
+}
+
+header .mobile-nav li {
+    height: 70px;
+    border-bottom: 1px solid #585858;
+    padding-left: 67px;
+}
+header .mobile-nav li:last-child {
+    height: 90px;
+}
+
+header .mobile-nav li a {
+    line-height: 70px;
+    color: #fff;
+    font-size: 24px;
+}
+
+header .mobile-nav li span {
+    float: left;
+    line-height: 90px;
+    font-size: 24px;
+    color: #fff;
+}
+
+header .mobile-nav li .search {
+    float: left;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+header .mobile-nav li .search input {
+    font-style: italic;
+    color: #585858;
+    background: #2a2a2a;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: none;
+    font-size: 24px;
+    height: 58px;
+    width: 338px;
+    padding: 0 20px;
+}
+
+
+
+header .single-page-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .single-page-nav ul li {
+    float: left;
+}
+
+header .single-page-nav ul li span {
+    padding: 0 3px;
+}
+
+header .single-page-nav ul li a {
+    color: #77787b;
+}
+
+header .single-page-nav ul li.active a {
+    font-weight: bold;
+}
+
+
+.main-nav {
+    background: #092a3f;
+    height: 26px;
+    margin-top: 8px;
+    margin-left: -18px;
+    margin-right: -17px;
+    padding-left: 21px;
+    position: relative;
+    z-index: 2;
+}
+
+.acr-template .main-nav {
+    margin-right: -18px;
+}
+
+.acr-template .main-nav nav {
+    margin-left: -1px;
+}
+
+.main-nav nav > ul > li {
+    float: left;
+    position: relative;
+}
+
+.main-nav nav > ul > li > a {
+    width: 148px;
+    height: 26px;
+    display: inline-block;
+}
+
+.main-nav nav > ul > li a.drive {
+    background: url(../images/mn_drivesystems1.jpg) no-repeat 50% 0;
+    width: 150px;
+}
+.main-nav nav > ul > li:hover a.drive,
+.main-nav nav > ul > li.active a.drive {
+    background: url(../images/mn_drivesystems2.jpg) no-repeat 50% 0;
+}
+
+.main-nav nav > ul > li a.resource {
+    background: url(../images/mn_resource_library1.jpg) no-repeat 50% 0;
+}
+.main-nav nav > ul > li:hover a.resource,
+.main-nav nav > ul > li.active  a.resource {
+    background: url(../images/mn_resource_library2.jpg) no-repeat 50% 0;
+}
+
+.main-nav nav > ul > li a.global {
+    background: url(../images/mn_global_quality1.jpg) no-repeat 50% 0;
+}
+.main-nav nav > ul > li:hover a.global,
+.main-nav nav > ul > li.active a.global{
+    background: url(../images/mn_global_quality2.jpg) no-repeat 50% 0;
+}
+
+.main-nav nav > ul > li a.wrentham {
+    background: url(../images/mn_wrentham1.jpg) no-repeat 50% 0;
+}
+.main-nav nav > ul > li:hover a.wrentham,
+.main-nav nav > ul > li.active a.wrentham {
+    background: url(../images/mn_wrentham2.jpg) no-repeat 50% 0;
+}
+
+.main-nav nav > ul > li a.about {
+    background: url(../images/mn_about1.jpg) no-repeat 50% 0;
+}
+.main-nav nav > ul > li:hover a.about,
+.main-nav nav > ul > li.active a.about {
+    background: url(../images/mn_about2.jpg) no-repeat 50% 0;
+}
+
+.main-nav nav > ul > li.empty {
+    background: url(../images/mn_spacer.jpg) no-repeat;
+    height: 26px;
+    width: 201px;
+}
+
+.main-nav nav ul li .sub-menu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 160px;
+    top: 26px;
+}
+
+.main-nav nav ul li:hover .sub-menu {
+    display: block;
+}
+
+.main-nav nav ul li .sub-menu li {
+    border-bottom: 1px solid #e5e5e5;
+    height: 17px;
+}
+
+.main-nav nav ul li .sub-menu li:hover {
+    background: #e5e5e5;
+}
+
+.main-nav nav ul li .sub-menu li a {
+    background: none repeat scroll 0% 0% transparent;
+    display: block; color: rgb(0, 0, 0);
+    font-family: Lucida Sans Unicode;
+    font-weight: normal;
+    font-size: 11px;
+    text-decoration: none;
+    margin: 0px;
+    border: none;
+    padding-left: 8px;
+    text-align: left;
+}
+
+.banner.mobile {
+    display: none;
+}
+
+/*----------------content-----------*/
+
+.content {
+    padding-top: 24px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 82px;
+}
+
+
+.nav {
+    background: #000;
+    padding: 18px 18px 13px 11px;
+    margin-right: 1px;
+    overflow: hidden;
+}
+
+.nav .left {
+    width: 229px;
+    margin-top: -3px;
+}
+
+
+.nav .left a {
+    width: 229px;
+    height: 38px;
+    display: inline-block;
+    margin-top: -4px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.nav .left a.aerospace {
+    background-image: url(../images/nav_aerospace1.jpg);
+    height: 43px;
+    margin-top: 0;
+    background-position: 0 100%;
+}
+.nav .left a.aerospace:hover {
+    background-image: url(../images/nav_aerospace2.jpg);
+}
+
+.nav .left a.automotive {
+    background-image: url(../images/nav_automotive1.jpg);
+    background-position: 0 100%;
+}
+.nav .left a.automotive:hover {
+    background-image: url(../images/nav_automotive2.jpg);
+}
+.nav .left a.diy {
+   background-image: url(../images/nav_diy1.jpg);
+}
+.nav .left a.diy:hover {
+   background-image: url(../images/nav_diy2.jpg);
+}
+.nav .left a.electronics {
+    background-image: url(../images/nav_electronics1.jpg);
+}
+.nav .left a.electronics:hover {
+    background-image: url(../images/nav_electronics2.jpg);
+}
+.nav .left a.industrial {
+    background-image: url(../images/nav_industrial1.jpg);
+}
+.nav .left a.industrial:hover {
+    background-image: url(../images/nav_industrial2.jpg);
+}
+.nav .left a.marine {
+    background-image: url(../images/nav_marine1.jpg);
+    height: 39px;
+}
+.nav .left a.marine:hover {
+    background-image: url(../images/nav_marine2.jpg);
+}
+.nav .left a.military {
+    background-image: url(../images/nav_military1.jpg);
+    height: 37px;
+}
+.nav .left a.military:hover {
+    background-image: url(../images/nav_military2.jpg);
+}
+.nav .left a.header {
+    background-image: url(../images/nav_header1.jpg);
+    height: 64px;
+}
+.nav .left a.header:hover {
+    background-image: url(../images/nav_header2.jpg);
+}
+
+.nav .right {
+    width: 677px;
+}
+
+.nav .right > div {
+    display: none;
+    position: relative;
+    z-index: 2;
+}
+
+.nav .right > div#default {
+    display: block;
+    z-index: 1;
+}
+
+.nav .right > div#default a img {
+    width: 100%;
+    height: auto;
+}
+
+.nav .right > div > a {
+    width: 677px;
+    height: 340px;
+    display: inline-block;
+}
+
+.nav .right > div#aerospace a {
+    background: url(../images/main_aerospace.jpg) no-repeat;
+}
+.nav .right > div#aerospace a:hover {
+    background: url(../images/main_aerospace.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#automotive a {
+    background: url(../images/main_automotive.jpg) no-repeat;
+}
+.nav .right > div#automotive a:hover {
+    background: url(../images/main_automotive.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#diy a {
+    background: url(../images/main_diy.jpg) no-repeat;
+}
+.nav .right > div#diy a:hover {
+    background: url(../images/main_diy.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#electronics a {
+    background: url(../images/main_electronics.jpg) no-repeat;
+}
+.nav .right > div#electronics a:hover {
+    background: url(../images/main_electronics.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#industrial a {
+    background: url(../images/main_industrial.jpg) no-repeat;
+}
+.nav .right > div#industrial a:hover {
+    background: url(../images/main_industrial.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#marine a {
+    background: url(../images/main_marine.jpg) no-repeat;
+}
+.nav .right > div#marine a:hover {
+    background: url(../images/main_marine.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#military a {
+    background: url(../images/main_military.jpg) no-repeat;
+}
+.nav .right > div#military a:hover {
+    background: url(../images/main_military.jpg) no-repeat 0 100%;
+}
+
+.nav .right > div#header a {
+    background: url(../images/main_header.jpg) no-repeat;
+}
+.nav .right > div#header a:hover {
+    background: url(../images/main_header.jpg) no-repeat 0 100%;
+}
+
+.services {
+    margin-top: 48px;
+}
+
+.services > div {
+    border-left: 1px solid #2397d0;
+    min-height: 280px;
+    
+}
+
+.services > div.first {
+    border-left: none;
+    width: 251px;
+    padding: 10px 27px 0; 
+}
+
+.services > div.second {
+    width: 241px;
+    padding: 10px 10px 0 22px;
+}
+
+.services > div.third {
+    width: 248px;
+    padding: 0 15px;
+}
+
+.services > div.third p {
+    padding-left: 9px;
+}
+
+.services > div.last {
+    width: 202px;
+    padding: 3px 21px 0;
+}
+
+.services > div > a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.services > div > a > img {
+    width: 100%;
+    height: auto;
+}
+
+.services > div.third > a {
+    margin-bottom: 4px;
+}
+
+.services div p a {
+    font-size: 11px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+.services div.second p a,
+.services div.third p a{
+    font-size: 11px;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    position: relative;
+    top: -1px;
+}
+
+.services > div > a.cboxElement {
+    margin-bottom: -5px;
+    margin-top: 20px;
+    margin-right: -1px;
+}
+
+
+.dropdown-select.mobile {
+    display: none;
+}
+
+
+/*---------------aviation_fasteners-------*/
+
+.content.earospace-bg {
+    background: url(../images/bg_aerospace.jpg) no-repeat;
+    padding-left: 18px;
+    padding-right: 0px;
+    margin-left: -18px;
+    margin-right: -17px;
+    min-height: 1114px;
+    padding-top: 14px;
+}
+
+.content.acr-bg {
+    background: url(../images/bg2_acr_phillips.jpg) no-repeat;
+    padding-left: 18px;
+    padding-right: 0px;
+    margin-left: -18px;
+    margin-right: -17px;
+    min-height: 1114px;
+    padding-top: 0px;
+    margin-top: 16px;
+}
+
+.banner-img {
+    margin-left: 2px;
+    padding-right: 18px;
+    margin-bottom: -1px;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img .banner-text.mobile {
+    display: none;
+}
+
+.left-sidebar {
+    width: 246px;
+    float: left;
+}
+
+.left-sidebar .fastening {
+    background: url(../images/wizard_bg2.png) no-repeat;
+    position: relative;
+    top: -50px;
+    left: -2px;
+}
+
+.acr-template .left-sidebar .fastening {
+    top: 158px;
+    left: -3px;
+}
+
+.left-sidebar .fastening.select-bg {
+    background: url(../images/wizard_bg1.png) no-repeat 0 -1px;
+}
+
+.left-sidebar .fastening .click {
+    color: #0054a6;
+    text-decoration: underline;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.left-sidebar .fastening .text {
+    padding-left: 30px;
+    padding-top: 61px;
+    height: 144px;
+    display: none;
+}
+
+.aviation-template .left-sidebar .fastening .text {
+    display: block;
+}
+
+.left-sidebar .fastening .select {
+    
+    height: 437px;
+    padding-top: 58px;
+    padding-left: 30px;
+}
+
+.aviation-template .left-sidebar .fastening .select {
+    display: none;
+}
+
+.left-sidebar .fastening .select select {
+    width: 157px;
+}
+
+.left-sidebar .fastening .select p.text17 {
+    padding-top: 19px;
+}
+
+.left-sidebar .fastening .select .checkboxes {
+    margin-top: 3px;
+    margin-left: -1px;
+}
+
+.left-sidebar .fastening .select .checkboxes p {
+    line-height: 24px;
+}
+
+
+.left-sidebar .fastening .select .checkboxes p input {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.left-sidebar .fastening .select .checkboxes p:first-child input {
+    top: 1px;
+}
+
+.left-sidebar .fastening .select .checkboxes p:nth-child(3) input {
+    top: 3px;
+}
+
+.left-sidebar .fastening .select .checkboxes p label {
+    line-height: 24px;
+    position: relative;
+    top: 0px;
+}
+
+.left-sidebar .fastening .select .checkboxes p:nth-child(2) label,
+.left-sidebar .fastening .select .checkboxes p:nth-child(3) label,
+.left-sidebar .fastening .select .checkboxes p:nth-child(4) label {
+    top: 1px;
+}
+
+.left-sidebar .fastening .select .close.right {
+    margin: 6px 32px 0 0;
+}
+
+.left-sidebar .fastening .select .close.btn {
+    bottom: 20px;
+    display: inline-block;
+    height: 21px;
+    position: absolute;
+    right: 6px;
+    width: 22px;
+    cursor: pointer;
+}
+
+
+.right-sidebar {
+    width: 186px;
+    float: right;
+}
+
+.right-sidebar  .drive-links {
+    margin-top: 77px;
+    margin-right: 3px;
+}
+
+.right-sidebar  .drive-links li {
+    margin-bottom: 3px;
+}
+
+.right-sidebar  .drive-links li:first-child + li {
+    margin-bottom: 4px;
+}
+
+.right-sidebar  .drive-links li:nth-last-child(2) {
+    margin-bottom: 4px;
+}
+
+.right-sidebar  .drive-links a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.right-sidebar .pmt-series {
+    margin-top: 47px;
+}
+
+.pmt-series ul {
+    margin-top: -1px;
+}
+
+.pmt-series ul li {
+    padding-left: 5px;
+    line-height: 11px;
+}
+
+.pmt-series a {
+    color: #0079c2;
+    font-family: Trebuchet MS;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.pmt-series ul li:last-child {
+    position: relative;
+    top: -1px;
+}
+
+.pmt-series ul li:last-child a {
+    font-size: 12px;
+}
+
+.pmt-series a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.right-sidebar .video-link {
+    margin-top: 15px;
+}
+
+.right-sidebar .video-link .text11 {
+    padding-top: 2px;
+}
+
+.right-sidebar .video-link .text11 a {
+    margin-right: 39px;
+    margin-top: 1px;
+    font-size: 11px;
+    font-family: Trebuchet MS;
+}
+
+article.article-two-sidebar {
+    width: 511px;
+    float: left;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
+article.article-two-sidebar p {
+    padding-top: 20px;
+}
+
+article.article-two-sidebar p img {
+    display: block;
+    float: left;
+}
+
+article.article-left-sidebar {
+    width: 655px;
+    float: left;
+    margin-left: 21px;
+    padding-top: 13px;
+}
+
+
+article.article-left-sidebar h2 span,
+article.article-left-sidebar .product-item p span {
+    font-size: 12px;
+}
+
+
+article.article-left-sidebar .product-item {
+   
+}
+
+article.article-left-sidebar .product-item .left {
+    width: 243px;
+}
+
+article.article-left-sidebar .product-item .right {
+    width: 394px;
+    color: #1e1d1e;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 34px;
+    background: url(../images/bg_acr_phillips.jpg) no-repeat 100% 100%;
+}
+
+article.article-left-sidebar .product-item .sizes {
+    margin-top: 17px;
+}
+
+article.article-left-sidebar .product-item .pmt-series {
+    margin-top: 18px;
+}
+
+article.article-left-sidebar .product-item .pmt-series p {
+    color: #1e1d1e;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+article.article-left-sidebar .product-item .pmt-series ul {
+    margin-top: 0px;
+}
+
+article.article-left-sidebar .product-item .pmt-series ul li {
+    padding-left: 0;
+}
+
+article.article-left-sidebar .product-item .pmt-series a {
+    color: #0079c2;
+    font-family: Lucida Sans Unicode;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 19px;
+}
+
+article.article-left-sidebar .white-block {
+    background: #fdfdf9;
+    display: inline-block;
+    width: 100%;
+    border-top: 5px solid #77787b;
+    border-bottom: 5px solid #77787b;
+    padding: 0 8px;
+}
+
+article.article-left-sidebar .white-block .row {
+    border-bottom: 1px solid #77787b;
+    display: block;
+    overflow: hidden;
+    padding: 5px 0 3px;
+}
+
+article.article-left-sidebar .white-block .row:first-child {
+    padding: 5px 0 4px;
+    display: inline-block;
+    width: 100% !important;
+}
+
+article.article-left-sidebar .white-block .row:nth-child(2) {
+    padding-top: 5px;
+}
+
+article.article-left-sidebar .white-block .row:nth-child(3) {
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+
+article.article-left-sidebar .white-block .row:last-child {
+    border-bottom:  none;
+}
+
+article.article-left-sidebar .white-block .features {
+    float: left;
+    width: 299px;
+    padding-left: 13px;
+}
+
+article.article-left-sidebar .white-block .features p {
+    background: url(../images/bullet_acr_phillips.png) no-repeat 0 2px;
+    padding-left: 26px;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    text-align: left;
+}
+
+article.article-left-sidebar .white-block .row:nth-child(3) .features p {
+    background-position: 0 3px;
+}
+
+
+article.article-left-sidebar .white-block .benefits {
+    float: left;
+    width: 340px;
+}
+
+article.article-left-sidebar .white-block .benefits ul li {
+    background: url(../images/bullet2.png) no-repeat 0 4px;
+    padding-left: 19px;
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 2px;
+}
+
+article.article-left-sidebar .white-block .row:nth-child(3) .benefits ul li {
+    background-position: 0 3px;
+}
+
+
+article.article-left-sidebar .applications {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+article.article-left-sidebar .applications select {
+    margin-top: 5px;
+    font-size: 13px;
+    min-width: 135px;
+    padding: 0 1px;
+    height: 20px;
+}
+
+
+.product-item-img.mobile {
+    display: none;
+}
+
+/*---------------footer------------*/
+
+
+footer {
+    margin-top: 12px;
+}
+
+
+.aviation-template footer {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.single-page.acr-template footer {
+    margin-top: 44px;
+}
+
+.footer-top {
+    min-height: 59px;
+}
+
+.footer-top a {
+    font-weight: bold;
+}
+
+.footer-copy {
+    min-height: 20px;
+}
+
+footer a {
+    color: #80777e;
+}

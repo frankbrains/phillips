@@ -1,0 +1,224 @@
+@media (max-width: 992px) {
+    
+    header .single-page-nav ul li span {
+        padding: 0 2px;
+    }
+    
+    header .single-page-nav ul li a {
+        font-size: 9px;
+    }
+    
+    .main-nav nav > ul > li.empty  {
+        display: none;
+    }
+    
+    .main-nav nav > ul > li > a {
+        width: 140px;
+        border-right: 1px solid #fff;
+    }
+    
+    .main-nav nav ul li .sub-menu {
+        width: 140px;
+    }
+    
+    .container,
+    .container.single-page {
+        width: 750px;
+    }
+    
+    
+    .shadow {
+        width: 100%;
+        background-size: 890px auto;
+    }
+    
+    
+    .nav .left {
+        width: 160px;
+    }
+    
+    .nav .left a {
+        width: 160px;
+        height: 27px;
+        margin-top: -2px;
+        background-size: 160px auto;
+    }
+    .nav .left a:hover {
+       background-size: 160px auto;
+    }
+    
+    .nav .left a.aerospace {
+        height: 30px;
+        border-bottom: 0.5px solid #005588;
+    }
+    .nav .left a.marine {
+        height: 28px;
+        border-bottom: 0.5px solid #005588;
+    }
+    .nav .left a.military {
+        height: 26px;
+    }
+    .nav .left a.header {
+        height: 43px;
+        border-bottom: 0.5px solid #005588;
+    }
+    
+    .nav .right {
+        width: 520px;
+    }
+    
+    .nav .right > div > a {
+        width: 520px;
+        height: 261px;
+        background-size: 520px auto;
+    }
+    
+    .services > div.col-md-3 {
+        width: 25%;
+        padding: 10px 15px 0;
+        min-height: 303px;
+    }
+    
+    
+    
+    /*--------------------content------------*/
+    
+    .left-sidebar,
+    .right-sidebar {
+        width: 25%;
+    }
+    
+    .left-sidebar .fastening,
+    .left-sidebar .fastening.select-bg {
+        background-size: 100% auto;
+        height: 325px;
+    }
+    
+
+    
+    .left-sidebar .fastening br {
+        display: none;
+    }
+    
+    .left-sidebar .fastening .text {
+        padding-left: 18px;
+        padding-top: 40px;
+        padding-right: 5px;
+    }
+    
+    .left-sidebar .fastening .select {
+        padding-left: 18px;
+        padding-top: 40px;
+        padding-right: 5px;
+    }
+    
+    .left-sidebar .fastening .select select {
+        width: 146px;
+        font-size: 12px;
+    }
+    
+    .left-sidebar .fastening .select p.text17 {
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    
+    .left-sidebar .fastening .select .checkboxes p,
+    .left-sidebar .fastening .select .checkboxes p label {
+        line-height: 14px;
+    }
+        
+    .left-sidebar .fastening .text18,
+    .left-sidebar .fastening .text25 {
+        font-size: 11px;
+    }
+    
+    article.article-two-sidebar {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    
+    article.article-two-sidebar p.text10 br {
+        display: none;
+    }
+    
+    .acr-template .left-sidebar {
+        width: 34%
+    }
+    
+    .acr-template .left-sidebar .fastening,
+    .acr-template .left-sidebar .fastening.select-bg {
+        height: 425px;
+    }
+    
+    .acr-template .left-sidebar .fastening .text,
+    .acr-template .left-sidebar .fastening .select {
+        padding-left: 25px;
+        padding-top: 55px;
+        padding-right: 15px;
+    }
+    
+    .acr-template .left-sidebar .fastening .text18,
+    .acr-template .left-sidebar .fastening .text25,
+    .acr-template .left-sidebar .fastening .select p.text17{
+        font-size: 13px;
+    }
+    
+    .acr-template .left-sidebar .fastening .select .checkboxes{
+        margin-top: 17px;
+    }
+    
+    .acr-template .left-sidebar .fastening .select .checkboxes p,
+    .acr-template .left-sidebar .fastening .select .checkboxes p label {
+        line-height: 24px;
+    }
+    
+    article.article-left-sidebar {
+        width: 66%;
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    
+    article.article-left-sidebar .product-item .left {
+        width: 195px;
+    }
+    
+    article.article-left-sidebar .product-item .right {
+        width: 260px;
+        background-size: 150px auto;
+    }
+    
+    #myAlternativeContent {
+        margin-top: -20px;
+    }
+    
+    article.article-left-sidebar .white-block .features {
+        width: 48%; 
+    }
+    
+    article.article-left-sidebar .white-block .benefits {
+        width: 52%;
+    }
+    
+    /*----------------footer--------*/
+    
+    footer {
+        margin-top: 50px;
+    }
+    
+    .footer-top {
+        padding-bottom: 10px;
+    }
+    
+    .footer-top br {
+        display: none;
+    }
+    
+    footer .left,
+    footer .right {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+}
